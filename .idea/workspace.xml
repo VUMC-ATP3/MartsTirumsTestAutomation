@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0545a501-671a-4cd0-aeba-bb89c08d4c18" name="Changes" comment="TExts">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/SauceDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,18 +51,46 @@
       <recent name="C:\Users\Smart\Desktop\javalekcija4\MartsTirumsTestAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SauceLabsTest.testFooterCopyRightText">
-    <configuration name="SauceLabsTest.testErrorMessagePOM" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SauceDemoTest">
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MartsTirumsTestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MartsTirumsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassRoomSeven.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="ClassRoomSeven.SauceLabsTest" />
-      <option name="METHOD_NAME" value="testErrorMessagePOM" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoTest.testScenarioOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MartsTirumsTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTest" />
+      <option name="METHOD_NAME" value="testScenarioOne" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,53 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceLabsTest.testErrorMessageWithoutPasswordPOM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTest.testScenarioTwo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MartsTirumsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassRoomSeven.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="ClassRoomSeven.SauceLabsTest" />
-      <option name="METHOD_NAME" value="testErrorMessageWithoutPasswordPOM" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SauceLabsTest.testErrorMessageWithoutUsernameWPOM" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MartsTirumsTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassRoomSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ClassRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="ClassRoomSeven.SauceLabsTest" />
-      <option name="METHOD_NAME" value="testErrorMessageWithoutUsernameWPOM" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SauceLabsTest.testFooterCopyRightText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MartsTirumsTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassRoomSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ClassRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="ClassRoomSeven.SauceLabsTest" />
-      <option name="METHOD_NAME" value="testFooterCopyRightText" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTest" />
+      <option name="METHOD_NAME" value="testScenarioTwo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SauceLabsTest.testFooterCopyRightText" />
+        <item itemvalue="TestNG.SauceDemoTest" />
+        <item itemvalue="TestNG.SauceDemoTest.testScenarioTwo" />
+        <item itemvalue="TestNG.SauceDemoTest.testScenarioOne" />
         <item itemvalue="TestNG.SauceLabsTest.testSuccessLogin" />
-        <item itemvalue="TestNG.SauceLabsTest.testErrorMessageWithoutUsernameWPOM" />
-        <item itemvalue="TestNG.SauceLabsTest.testErrorMessageWithoutPasswordPOM" />
-        <item itemvalue="TestNG.SauceLabsTest.testErrorMessagePOM" />
+        <item itemvalue="TestNG.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
