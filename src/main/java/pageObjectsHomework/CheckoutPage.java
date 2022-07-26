@@ -45,6 +45,8 @@ public class CheckoutPage {
     private By errorZipPostalCode = By.cssSelector("h3[data-test='error']");
     //Error: Postal Code is required
 
+    private By errorMessage = By.cssSelector("h3[data-test='error']");
+
     public WebElement getErrorFirstName(){
         return driver.findElement(errorFirstName);
     }
@@ -54,7 +56,9 @@ public class CheckoutPage {
     public WebElement getErrorZipPostalCode(){
         return driver.findElement(errorZipPostalCode);
     }
-
+    public WebElement getErrorMessage(){
+        return driver.findElement(errorMessage);
+    }
 
 
 

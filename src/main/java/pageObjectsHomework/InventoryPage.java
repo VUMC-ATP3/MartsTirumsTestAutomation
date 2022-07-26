@@ -31,6 +31,10 @@ public class InventoryPage {
     public WebElement getEmptyCartButton(){
         return driver.findElement(emptyCartbuttom);
     }
+    public void addToCart(){
+        getProductOnesie().click();
+    }
+
 
 
 

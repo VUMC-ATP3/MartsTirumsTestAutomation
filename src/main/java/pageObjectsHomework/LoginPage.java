@@ -15,6 +15,8 @@ public class LoginPage {
     private By passwordInputField = By.id("password");
     private By loginButton = By.id("login-button");
 
+    private By errorText = By.cssSelector("h3[data-test='error']");
+
 
 
     public void login(String username, String password){
@@ -33,6 +35,10 @@ public class LoginPage {
 
     public WebElement getLoginButton(){
         return driver.findElement(loginButton);
+    }
+
+    public WebElement getErrorText(){
+        return  driver.findElement(errorText);
     }
 
 
